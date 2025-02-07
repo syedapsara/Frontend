@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    h1{
+        color:darkblue;
+    }
+    .one{
+        color:rgb(201, 126, 12);
+        font-size: x-large;
+    }
+    #two{
+        color:rgb(97, 187, 7);
+        font-size: x-large;
+    }
+    div{
+        color:darkgreen;
+        font-size: x-large;
+    }
+    *{
+        color:aquamarine;
+
+    }
+    div p{
+        color:red;
+    }
+    ul>li{
+        color:deeppink;
+    }
+    input[type="password"]{
+        color:maroon;
+    }
+    h1,h2,h3{
+        color:darkblue;
+        font-size: x-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Inline css -->
+    <h1 style="background-color:aqua;">Apsara</h1>
+
+    <!-- selectors -->
+     <!-- class selector -->
+    <div class="one">Anju</div>
+    <!-- ID selector -->
+    <p id="two">Apsara</p>
+    <!--Type selector-->
+    <div>Afrin</div>
+    <!--Universal selector  -->
+    <p>universal</p>
+    <!-- Descendent selector -->
+     <div>
+     <p>paragraph</p>
+    </div>
+    <!-- child selector -->
+     <ul>
+        <ol>
+            <li></li>
+        </ol>
+     </ul>
+     <!-- Attribute selector -->
+      <label for="password">password</label>
+      <input type="password" placeholder="enter password" id="password">
+      <!-- Grouping selector -->
+       <h2>Frontend</h2>
+       <h3>Practice session</h3>
+</body>
+</html>
